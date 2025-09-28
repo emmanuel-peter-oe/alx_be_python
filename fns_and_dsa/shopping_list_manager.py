@@ -12,14 +12,14 @@ def main():
         choice = input("Enter your choice: ").strip()
 
         if choice == '1':
-            item = input("Enter item to add: ").strip()
+            item = input("Enter the item to add: ").strip()
             if item == "":
                 print("No item entered. Nothing was added.")
             else:
                 shopping_list.append(item)
                 print(f"'{item}' added to the shopping list.")
         elif choice == '2':
-            item = input("Enter item to remove: ").strip()
+            item = input("Enter the item to remove: ").strip()
             if item == "":
                 print("No item entered. Nothing was removed.")
             else:
@@ -43,3 +43,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
